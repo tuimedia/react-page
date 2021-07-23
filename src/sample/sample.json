@@ -1,0 +1,485 @@
+{
+    "id": "fb29e273-0ae5-11eb-ba59-029e4c981cb0",
+    "slug": "general-info-egypt",
+    "state": "live",
+    "pageData": {
+        "revision": "dabe4fe6-0d4c-11eb-ba59-029e4c981cb0",
+        "previousRevision": "246b3a75-0ae6-11eb-ba59-029e4c981cb0",
+        "defaultLanguage": "en_GB",
+        "availableLanguages": [
+            "en_GB"
+        ],
+        "created": "2020-10-13T13:08:50+01:00",
+        "content": {
+            "schemaVersion": 2,
+            "blocks": {
+                "l8wveVDB6cf9": {
+                    "id": "l8wveVDB6cf9",
+                    "blocks": [
+                        "cVgH-Bk-DpNL",
+                        "yzBbErO1D0yu",
+                        "FPA7o34nR_7t"
+                    ],
+                    "component": "WFPArticleGrid",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "metadata": {
+                        "isFirstRow": true
+                    }
+                },
+                "cVgH-Bk-DpNL": {
+                    "id": "cVgH-Bk-DpNL",
+                    "styles": {},
+                    "component": "PageHero",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "heroImage": "https:\/\/unwfp.imgix.net\/htbe\/uploads\/bluerect.svg",
+                    "heroType": "image",
+                    "imgixParams": "",
+                    "blendImage": "",
+                    "mapUrl": "",
+                    "offlineImages": [
+                        "https:\/\/res.cloudinary.com\/tuimedia\/image\/upload\/c_fill,f_auto,g_auto,h_360,q_auto,w_640\/e_multiply,fl_relative,h_1.0,l_wfpwellbeing:dealing-with-a-heavy-workload-grad.png,o_100,w_1.0\/v1\/wfpwellbeing\/06440ca41dc4b8a8198cad0c9031bd82d29ca162.jpg"
+                    ]
+                },
+                "yzBbErO1D0yu": {
+                    "id": "yzBbErO1D0yu",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "subtitle"
+                },
+                "faL1hHL2NUi3": {
+                    "id": "faL1hHL2NUi3",
+                    "blocks": [
+                        "seTAFJ8oZg1D",
+                        "Av-SKn41ukMJ"
+                    ],
+                    "metadata": {
+                        "isFirstRow": false,
+                        "isCollapsible": false
+                    },
+                    "component": "WFPLocalKnowledgeArticleRow",
+                    "languages": [
+                        "en_GB"
+                    ]
+                },
+                "seTAFJ8oZg1D": {
+                    "id": "seTAFJ8oZg1D",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "tertiary"
+                },
+                "FPA7o34nR_7t": {
+                    "id": "FPA7o34nR_7t",
+                    "styles": {},
+                    "component": "PageHero",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "heroImage": "https:\/\/unwfp.imgix.net\/htbe\/uploads\/bluerect.svg",
+                    "heroType": "image",
+                    "imgixParams": "",
+                    "blendImage": "",
+                    "mapUrl": "",
+                    "offlineImages": [
+                        "https:\/\/res.cloudinary.com\/tuimedia\/image\/upload\/c_fill,f_auto,g_auto,h_360,q_auto,w_640\/e_multiply,fl_relative,h_1.0,l_wfpwellbeing:dealing-with-a-heavy-workload-grad.png,o_100,w_1.0\/v1\/wfpwellbeing\/06440ca41dc4b8a8198cad0c9031bd82d29ca162.jpg"
+                    ]
+                },
+                "GF0xhHnLzzqo": {
+                    "id": "GF0xhHnLzzqo",
+                    "blocks": [
+                        "s7ne3-NkS1Fx"
+                    ],
+                    "metadata": {
+                        "isFirstRow": false,
+                        "isCollapsible": true
+                    },
+                    "component": "WFPLocalKnowledgeArticleRow",
+                    "languages": [
+                        "en_GB"
+                    ]
+                },
+                "s7ne3-NkS1Fx": {
+                    "id": "s7ne3-NkS1Fx",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "subtitle"
+                },
+                "z44BTHzUa9eb": {
+                    "id": "z44BTHzUa9eb",
+                    "blocks": [
+                        "5YJhFHQomngw"
+                    ],
+                    "metadata": {
+                        "isFirstRow": false,
+                        "isCollapsible": true
+                    },
+                    "component": "WFPLocalKnowledgeArticleRow",
+                    "languages": [
+                        "en_GB"
+                    ]
+                },
+                "5YJhFHQomngw": {
+                    "id": "5YJhFHQomngw",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "tertiary"
+                },
+                "KQgOJCGdeSCF": {
+                    "id": "KQgOJCGdeSCF",
+                    "blocks": [
+                        "4lkQk3j8BP51",
+                        "q9ZBt9MfQ8p0"
+                    ],
+                    "metadata": {
+                        "isFirstRow": false,
+                        "isCollapsible": true
+                    },
+                    "component": "WFPLocalKnowledgeArticleRow",
+                    "languages": [
+                        "en_GB"
+                    ]
+                },
+                "we9XSQGz34qQ": {
+                    "id": "we9XSQGz34qQ",
+                    "blocks": [
+                        "1qirbGxcm9oc"
+                    ],
+                    "metadata": {
+                        "isFirstRow": false,
+                        "isCollapsible": true
+                    },
+                    "component": "WFPLocalKnowledgeArticleRow",
+                    "languages": [
+                        "en_GB"
+                    ]
+                },
+                "1qirbGxcm9oc": {
+                    "id": "1qirbGxcm9oc",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "tertiary"
+                },
+                "ofipHNqJ43vQ": {
+                    "id": "ofipHNqJ43vQ",
+                    "blocks": [
+                        "_g5yTPJfAOAv"
+                    ],
+                    "metadata": {
+                        "isFirstRow": false,
+                        "isCollapsible": true
+                    },
+                    "component": "WFPLocalKnowledgeArticleRow",
+                    "languages": [
+                        "en_GB"
+                    ]
+                },
+                "_g5yTPJfAOAv": {
+                    "id": "_g5yTPJfAOAv",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "tertiary"
+                },
+                "QrbMVm9rNNTE": {
+                    "id": "QrbMVm9rNNTE",
+                    "blocks": [
+                        "sRD1DqjhGVqi"
+                    ],
+                    "metadata": {
+                        "isFirstRow": false,
+                        "isCollapsible": true
+                    },
+                    "component": "WFPLocalKnowledgeArticleRow",
+                    "languages": [
+                        "en_GB"
+                    ]
+                },
+                "sRD1DqjhGVqi": {
+                    "id": "sRD1DqjhGVqi",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "subtitle"
+                },
+                "wo3iMYyX2QRE": {
+                    "id": "wo3iMYyX2QRE",
+                    "blocks": [
+                        "uTyTa6fZmJUH",
+                        "oTv4aeWAOTjN",
+                        "o8mPNHWVyK-g",
+                        "Dn1ClJIjfBLC",
+                        "8iYpJT4QakZf"
+                    ],
+                    "metadata": {
+                        "isFirstRow": false,
+                        "isCollapsible": true
+                    },
+                    "component": "WFPLocalKnowledgeArticleRow",
+                    "languages": [
+                        "en_GB"
+                    ]
+                },
+                "oTv4aeWAOTjN": {
+                    "id": "oTv4aeWAOTjN",
+                    "styles": {},
+                    "component": "PageImage",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "url": "https:\/\/unwfp.imgix.net\/htbe\/uploads\/648b7abab5c54eff33653c77e18ef5b1daa07690.png",
+                    "maxWidth": null,
+                    "offlineImages": [
+                        "https:\/\/unwfp.imgix.net\/htbe\/uploads\/648b7abab5c54eff33653c77e18ef5b1daa07690.png?w=640\u0026auto=format,compress"
+                    ]
+                },
+                "Av-SKn41ukMJ": {
+                    "id": "Av-SKn41ukMJ",
+                    "styles": {},
+                    "component": "PageImage",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "url": "https:\/\/unwfp.imgix.net\/htbe\/uploads\/7344914289833260e4b7b68a0b6ad6ea6aef85d0.png",
+                    "maxWidth": null,
+                    "offlineImages": [
+                        "https:\/\/unwfp.imgix.net\/htbe\/uploads\/7344914289833260e4b7b68a0b6ad6ea6aef85d0.png?w=640\u0026auto=format,compress"
+                    ]
+                },
+                "4lkQk3j8BP51": {
+                    "id": "4lkQk3j8BP51",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "tertiary"
+                },
+                "q9ZBt9MfQ8p0": {
+                    "id": "q9ZBt9MfQ8p0",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "tertiary"
+                },
+                "8iYpJT4QakZf": {
+                    "id": "8iYpJT4QakZf",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "subtitle"
+                },
+                "Dn1ClJIjfBLC": {
+                    "id": "Dn1ClJIjfBLC",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "tertiary"
+                },
+                "uTyTa6fZmJUH": {
+                    "id": "uTyTa6fZmJUH",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "tertiary"
+                },
+                "o8mPNHWVyK-g": {
+                    "id": "o8mPNHWVyK-g",
+                    "styles": {},
+                    "component": "PageText",
+                    "languages": [
+                        "en_GB"
+                    ],
+                    "titleLevel": "subtitle"
+                }
+            },
+            "langData": {
+                "en_GB": {
+                    "metadata": {
+                        "title": "About Egypt and Cairo",
+                        "intro": "",
+                        "standfirst": "What to say about Egypt that has not all ready been said?"
+                    },
+                    "cVgH-Bk-DpNL": {
+                        "title": "Introduction to Egypt"
+                    },
+                    "yzBbErO1D0yu": {
+                        "title": "",
+                        "copy": "\u003Cp\u003EIf you have any thoughts, comments or suggestions to add to the information provided here, please contact \u003Ca href=\u0022mailto:RBC.Wellness@wfp.org\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ERBC.Wellness@wfp.org\u003C\/a\u003E\u003C\/p\u003E"
+                    },
+                    "faL1hHL2NUi3": {
+                        "title": "Geography"
+                    },
+                    "seTAFJ8oZg1D": {
+                        "title": "",
+                        "copy": "\u003Cp\u003EThe Arab Republic of Egypt is in the north-eastern corner of Africa and south-western Asia. Egypt is bordered by the Mediterranean Sea to the north, the Gaza Strip and Israel to the northeast, the Red Sea to the east, Sudan to the south and Libya to the west\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003ECairo \u003C\/strong\u003Eis the glorious capital of Egypt, the cradle of civilization and the beacon of religion.\u003C\/p\u003E\u003Cp\u003E\u003Ca href=\u0022https:\/\/www.google.com\/search?rls=com.microsoft%3Aen-US%3AIE-Address\u0026amp;biw=1680\u0026amp;bih=904\u0026amp;q=jordan%2Bdialing%2Bcode\u0026amp;stick=H4sIAAAAAAAAAOPgE-LQz9U3MI6Pr9RSzE620s_JT04syczP00_OL80rKaq0SslMzMnMS1dIzk9JBQCDOUbFLwAAAA\u0026amp;sa=X\u0026amp;ved=0ahUKEwj-x6DP4NzZAhVCyqQKHWHSAUkQ6BMItAEoADAY\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EDialling code: \u003C\/a\u003E+20\u003Cbr\u003E\u003Cstrong\u003ETime Zone\u003C\/strong\u003E: UTC+2 (Eastern European Time EET)\u003C\/p\u003E"
+                    },
+                    "l8wveVDB6cf9": {
+                        "title": "Egypt  combines ancient and new, east and west, and offers a rich experience for WFP staff who come to live and work here."
+                    },
+                    "FPA7o34nR_7t": {
+                        "title": ""
+                    },
+                    "GF0xhHnLzzqo": {
+                        "title": "Language"
+                    },
+                    "s7ne3-NkS1Fx": {
+                        "title": "",
+                        "copy": "\u003Cp\u003EThe official language of Egypt is \u003Cstrong\u003EArabic.\u003Cbr\u003EEnglish \u003C\/strong\u003Elanguage is widely used.\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EHere\u2019s how to say a few handy words and phrases in Egyptian Arabic:\u003C\/strong\u003E\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EHello\/Hey \u003C\/strong\u003E= \u003Cstrong\u003Esalam \u2018alaykum\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EGood morning = Sabah Elkheir - reply = Sabah Elnoor\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EMy name is\u2026 \u003C\/strong\u003E= \u003Cstrong\u003EEsme \u2026\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EPlease \u003C\/strong\u003E= \u003Cstrong\u003ELaw samaht\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EThank you \u003C\/strong\u003E= \u003Cstrong\u003EShukran\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EHow are you? \u003C\/strong\u003E= \u003Cstrong\u003EEzayak?\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EI\u2019m good, thanks = Tamam, shukran\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EDo you speak English? \u003C\/strong\u003E= \u003Cstrong\u003EBetekkallem \u2018englizi? \u003C\/strong\u003E(to a man), \u003Cstrong\u003Ebetekkallemi \u2018englizi\u003C\/strong\u003E? (to a woman)\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003EHow much is this? = Bekam?\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003ESorry I don\u2019t speak Arabic = Msh batkalem Araby\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EWhere\u2019s the washroom? \u003C\/strong\u003E= \u003Cstrong\u003EEl-hammam fein?\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EGoodbye \u003C\/strong\u003E= \u003Cstrong\u003EMa\u2019a elsalama\/byebye!\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003ESee you tomorrow = Ashofak bukra (for a male) \/ Ashofek bukra (for a female)\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003EStreet Number\u2026 = Share\u2019 Raqam \u2026\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003C\/p\u003E\u003Cp\u003E\u003C\/p\u003E"
+                    },
+                    "z44BTHzUa9eb": {
+                        "title": "Weather and temperature"
+                    },
+                    "5YJhFHQomngw": {
+                        "title": "",
+                        "copy": "\u003Cp\u003EIn Cairo, the summers are long, hot, humid, arid, and clear. The winters are cool, dry, and mostly clear.\u003C\/p\u003E\u003Cp\u003EOver the course of the year, the temperature typically varies from \u003Cem\u003E50\u00b0F \u003C\/em\u003Eto \u003Cem\u003E96\u00b0F \u003C\/em\u003Eand is rarely below \u003Cem\u003E46\u00b0F \u003C\/em\u003Eor above \u003Cem\u003E102\u00b0F\u003C\/em\u003E.\u003C\/p\u003E\u003Cp\u003EThe hot season lasts for 4.6 months, from May 14 to October 2, with an average daily high temperature above 90\u00b0F.\u003C\/p\u003E\u003Cp\u003EThe hottest month of the year is August, with an average high of 96\u00b0F and low of 76\u00b0F. The cool season lasts for 3 months, from December to March, with an average daily high temperature below 72\u00b0F.\u003C\/p\u003E\u003Cp\u003EThe coldest day of the year is January 20, with an average low of 50\u00b0F and high of 67\u00b0F.\u003C\/p\u003E\u003Cp\u003E\u003C\/p\u003E\u003Cp\u003ESee tips to stay healthy in the heat under the \u003Cstrong\u003EHealth and Wellbeing \u003C\/strong\u003Esection of the Egypt pages.\u003C\/p\u003E"
+                    },
+                    "KQgOJCGdeSCF": {
+                        "title": "Currency and banking"
+                    },
+                    "we9XSQGz34qQ": {
+                        "title": "Religion"
+                    },
+                    "1qirbGxcm9oc": {
+                        "title": "",
+                        "copy": "\u003Cp\u003EThe clear majority of Egyptians are Muslim, with the biggest number being Sunni Muslim, the largest branch of Islam. A small percentage of the population is Christian. Religion is central to the social and legal framework of the country.\u003C\/p\u003E\u003Cp\u003EEgypt hosts two major religious institutions. \u003Cstrong\u003EAl-Azhar Mosque\u003C\/strong\u003E, founded in 970 AD by the Fatimids as the first Islamic University in Egypt and the \u003Cstrong\u003ECoptic Orthodox Church \u003C\/strong\u003Eof Alexandria established in the middle of the 1st century by Saint Mark. The Adhan (Islamic call to prayer) that is heard five times a day has the informal effect of regulating the pace of everything from business to media and entertainment.\u003C\/p\u003E\u003Cp\u003ECairo is famous for its numerous mosque minarets and is justifiably dubbed \u0022the city of 1,000 minarets\u0022, with a significant number of church towers.\u003C\/p\u003E\u003Cp\u003EFamous mosques and churches in Cairo please follow this link:\u003Cstrong\u003E \u003C\/strong\u003E\u003Ca href=\u0022http:\/\/www.touregypt.net\/egypt-info\/featurestories-mosques.htm\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Ehttp:\/\/www.touregypt.net\/egypt-info\/featurestories-mosques.htm\u003C\/a\u003E\u003C\/p\u003E"
+                    },
+                    "ofipHNqJ43vQ": {
+                        "title": "Public holidays and working week"
+                    },
+                    "_g5yTPJfAOAv": {
+                        "title": "",
+                        "copy": "\u003Cp\u003EThe working days in Egypt are from Sunday to Thursday with Friday and Saturday off in all the banks and most of the government institutions.\u003C\/p\u003E\u003Cp\u003EFor the public holidays in Egypt, please follow this link: \u003Ca href=\u0022https:\/\/www.timeanddate.com\/holidays\/egypt\/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003Ehttps:\/\/www.timeanddate.com\/holidays\/egypt\/\u003C\/a\u003E\u003C\/p\u003E"
+                    },
+                    "QrbMVm9rNNTE": {
+                        "title": "Communications"
+                    },
+                    "sRD1DqjhGVqi": {
+                        "title": "",
+                        "copy": "\u003Cp\u003E\u003Cstrong\u003EMobile phone\u003Cbr\u003E\u003C\/strong\u003EThe mobile operators in Egypt are Vodafone, Orange (formerly Mobinil), Etisalat and We (by Telecom Egypt).\u003C\/p\u003E\u003Cp\u003EFollow the links below to access the available mobile operators:\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003E\u003Ca href=\u0022https:\/\/www.orange.eg\/en\/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EOrange Website\u003C\/a\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Ca href=\u0022http:\/\/www.vodafone.com.eg\/vodafoneportalWeb\/en\/myWorld_mainPage\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EVodafone Website\u003C\/a\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Ca href=\u0022http:\/\/www.etisalat.eg\/etisalat\/portal\/home_en\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EEtisalat Website\u003C\/a\u003E\u003C\/p\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E3G and 4G are available\u003Cbr\u003EFor international calls, follow this link: \u003Ca href=\u0022http:\/\/blog.vonage.com\/international-calling\/how-to-call-egypt-from-the-u-s\/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EInternational Calls\u003C\/a\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003ELandline\/Wi-Fi\u003Cbr\u003E\u003C\/strong\u003EFor the main providers, follow this link: \u003Ca href=\u0022https:\/\/www.satproviders.com\/en\/list-of-all-services\/EGYPT\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EMain providers\u003C\/a\u003E\u003Cbr\u003EFor Wi-Fi at home go to:\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003E\u003Ca href=\u0022https:\/\/te.eg\/wps\/portal\/te\/Personal?src=google\u0026amp;cmp=942865114\u0026amp;cont=247782651316\u0026amp;kwd=%D8%A7%D8%B1%D9%82%D8%A7%D9%85%20%D8%AA%D9%84%D9%8A%D9%81%D9%88%D9%86%20te%20data\u0026amp;gclid=EAIaIQobChMI942ji9fn3AIVDH1-Ch0sawECEAAYASAAEgKi5fD_BwE\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ETE Data\u003C\/a\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Ca href=\u0022https:\/\/dsl.orange.eg\/en\/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ELink DSL\u003C\/a\u003E\u003C\/p\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003Cstrong\u003EPostal services\u003Cbr\u003E\u003C\/strong\u003EFollow this link if you need to send something by post: \u003Ca href=\u0022https:\/\/www.fedex.com\/eg\/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EPostal Service\u003C\/a\u003E\u003C\/p\u003E"
+                    },
+                    "wo3iMYyX2QRE": {
+                        "title": "Moving around - transportation"
+                    },
+                    "oTv4aeWAOTjN": {
+                        "caption": "\u003Cp\u003E\u003C\/p\u003E"
+                    },
+                    "Av-SKn41ukMJ": {
+                        "caption": ""
+                    },
+                    "4lkQk3j8BP51": {
+                        "title": "",
+                        "copy": "\u003Ch3\u003ECurrency\u003C\/h3\u003E\u003Cp\u003EThe currency in Egypt is the Egyptian pound (LE). However, don\u2019t change your money before you come to Egypt. You will get a better rate here. Euros, dollars and sterling are accepted (notes not coins) but your money will go much further if you change it to Egyptian pounds. The best places to exchange money are the currency exchange shops (lots everywhere) or the bank. It is not a good idea to change at reception desks in hotels or when paying in restaurants or shops as you will not get the bank rate.\u003C\/p\u003E"
+                    },
+                    "q9ZBt9MfQ8p0": {
+                        "title": "",
+                        "copy": "\u003Ch3\u003EBanking facilities\u003C\/h3\u003E\u003Cp\u003EThe WFP Office can support staff to open a local bank account in the local currency (EGP) or currency of salary payment (USD).\u003C\/p\u003E\u003Cp\u003ECards are another safe way to carry money. Most mid- and high-end tourist hotels will accept major credit cards, with Visa and MasterCard having the widest acceptance in Egypt.\u003C\/p\u003E\u003Cp\u003EThe closest ATM to the office is the CIB ATM located in Grand Mall about 2 minutes\u2019 walk from our office.\u003C\/p\u003E"
+                    },
+                    "8iYpJT4QakZf": {
+                        "title": "",
+                        "copy": "\u003Ch2\u003ESecurity\u003C\/h2\u003E\u003Cp\u003E\u003Cstrong\u003EOfficial travel purposes\u003C\/strong\u003E\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003EPrivate taxis are not to be used for official purposes unless approved by the head of agency.\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003EPublic train, bus and ferry services are not recommended for official travel except for train travels to Alexandria and Upper Egypt in First Class subject to Head of Agency\u0027s approval.\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003EOfficial travels in UN or rented vehicles between main cities are allowed during daylight hours only\u003Cbr\u003E\u003Cbr\u003E\u003C\/p\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003Cstrong\u003EPrivate travel purposes\u003C\/strong\u003E\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003EExtreme caution should be exercised in the use of trains within the city. Rush hours are very crowded and personal items should be well secured to avoid theft.\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003ECommercial buses should be avoided\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003EUse public transportation only if you are with residents who are familiar with routes.\u003C\/p\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003C\/p\u003E"
+                    },
+                    "Dn1ClJIjfBLC": {
+                        "title": "",
+                        "copy": "\u003Ch3\u003ETaxi services\u003C\/h3\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003EPrivate taxi: \u003Ca href=\u0022https:\/\/www.careem.com\/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ECareem\u003C\/a\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003EPrivate taxi: \u003Ca href=\u0022https:\/\/www.uber.com\/en-EG\/\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003EUber\u003C\/a\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003ELuxurious private taxi: \u003Cstrong\u003E\u003Ca href=\u0022http:\/\/londoncabegypt.com\/%23\/home\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ELondon Cab Egypt\u003C\/a\u003E\u003C\/strong\u003E\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003EWhite taxis have meters - check that these are activated.\u003C\/p\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003C\/p\u003E"
+                    },
+                    "uTyTa6fZmJUH": {
+                        "title": "",
+                        "copy": "\u003Cp\u003E\u003Cstrong\u003ESee information and links below for transportation in Cairo and Egypt. Please pay careful attention to  security information included:\u003C\/strong\u003E\u003C\/p\u003E"
+                    },
+                    "o8mPNHWVyK-g": {
+                        "title": "",
+                        "copy": "\u003Ch2\u003EUnderground\u003C\/h2\u003E\u003Cp\u003E\u003Ca href=\u0022http:\/\/cairometro.gov.eg\/HomePage.aspx\u0022 rel=\u0022noopener noreferrer nofollow\u0022\u003ECairo Metro\u003C\/a\u003E\u003Cbr\u003EMetro fare ranges between 3 and 7 EGP\u003C\/p\u003E\u003Cp\u003EThe Cairo Metro is the rapid transit system in Greater Cairo and it consists of three operational lines numbered from 1 to 3 with 61 stations\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003ELine 1 (red)\u003C\/strong\u003E is the oldest line of the Cairo Metro. It serves 35 stations from Helwan to Elmarg. Our office is two minutes walking from Hadayeq El-Maadi Station.\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003ELine 2 (orange)\u003C\/strong\u003E is the second line of the Cairo Metro. It serves 20 stations from Almonib to Shubra.\u003C\/p\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cp\u003E\u003Cstrong\u003ELine 3 (green) \u003C\/strong\u003Epresently operates from Attaba to Ahram (Heliopolis), with construction under way for the remaining line to the northwest of Greater Cairo. Eventually it will link Cairo International Airport all the way to Cairo University and Imbaba.\u003C\/p\u003E\u003C\/li\u003E\u003C\/ul\u003E"
+                    }
+                }
+            },
+            "layout": [
+                "l8wveVDB6cf9",
+                "faL1hHL2NUi3",
+                "GF0xhHnLzzqo",
+                "z44BTHzUa9eb",
+                "KQgOJCGdeSCF",
+                "we9XSQGz34qQ",
+                "ofipHNqJ43vQ",
+                "QrbMVm9rNNTE",
+                "wo3iMYyX2QRE"
+            ]
+        },
+        "metadata": {
+            "thumbnail": "https:\/\/unwfp.imgix.net\/htbe\/uploads\/bluerect.svg",
+            "type": "article",
+            "accessRole": "ROLE_USER",
+            "cardStyle": "textImage",
+            "showRelated": false,
+            "spludge": "",
+            "isDutyStation": false,
+            "offlineImages": [
+                "https:\/\/res.cloudinary.com\/tuimedia\/image\/upload\/c_fill,f_auto,g_auto,h_360,q_auto,w_640\/e_multiply,fl_relative,h_1.0,l_wfpwellbeing:dealing-with-a-heavy-workload-grad.png,o_100,w_1.0\/v1\/wfpwellbeing\/06440ca41dc4b8a8198cad0c9031bd82d29ca162.jpg"
+            ],
+            "heroImage": "https:\/\/unwfp.imgix.net\/htbe\/uploads\/06440ca41dc4b8a8198cad0c9031bd82d29ca162.jpg"
+        },
+        "translatedMetadata": {
+            "en_GB": {
+                "thumbnail": "https:\/\/unwfp.imgix.net\/htbe\/uploads\/bluerect.svg",
+                "type": "article",
+                "accessRole": "ROLE_USER",
+                "cardStyle": "textImage",
+                "showRelated": false,
+                "spludge": "",
+                "isDutyStation": false,
+                "offlineImages": [
+                    "https:\/\/res.cloudinary.com\/tuimedia\/image\/upload\/c_fill,f_auto,g_auto,h_360,q_auto,w_640\/e_multiply,fl_relative,h_1.0,l_wfpwellbeing:dealing-with-a-heavy-workload-grad.png,o_100,w_1.0\/v1\/wfpwellbeing\/06440ca41dc4b8a8198cad0c9031bd82d29ca162.jpg"
+                ],
+                "heroImage": "https:\/\/unwfp.imgix.net\/htbe\/uploads\/06440ca41dc4b8a8198cad0c9031bd82d29ca162.jpg",
+                "title": "About Egypt and Cairo",
+                "intro": "",
+                "standfirst": "What to say about Egypt that has not all ready been said?"
+            }
+        }
+    },
+    "tagData": [
+        {
+            "id": "b329e474-de13-11e9-945c-029e4c981cb0",
+            "title": "Egypt",
+            "slug": "egypt",
+            "type": "local-knowledge",
+            "data": {
+                "hasLocalKnowledge": true,
+                "hasEmergencyContacts": false,
+                "redirectToGlobalWellnessTeam": true,
+                "color": "",
+                "blendImage": "",
+                "colour": "#E09999FF"
+            }
+        }
+    ]
+}
