@@ -1,10 +1,10 @@
 import React from 'react'
 import parse from 'html-react-parser';
 
-const PageText = ({key, block, data: {copy}}) => {
+const PageText = (props) => {
     return (
-        <div class={key}>
-            {parse(copy)}
+        <div>
+            {parse(props.block.copy)}
         </div>
     );
 }

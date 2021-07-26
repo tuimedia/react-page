@@ -1,37 +1,32 @@
 import React, {useState} from "react";
+import { useSelector } from "react-redux";
 import styled from "styled-components";
 import Components from "../../components";
+import translatedBlock from "../../filters/translatedBlock";
 
-const Wrapper = styled.div `
-    border: 1px solid red;
-`;
+const Wrapper = styled.div ``;
 
 const WFPArticleGrid = props => {
-  const [language, setLanguage] = useState('en_GB') 
-  const [content] = useState(props.data.blocks);
-
-  console.log('articlegrid', props);
-
-  const translatedBlock = id => {
-    const row = {
-      ...content[id]
-    };
-
-    return row;
-  };
+  const content = useSelector(state => state.index?.page?.pageData?.content);
+  const language = useSelector(state => state.index.language);
 
   const renderComponents = () => {
     const components = [];
-    for (const block in content) {
-      components.push(Components(content[block], translatedBlock(block)));
-    }
+    props.block.blocks.forEach(block => {
+        components.push(Components(translatedBlock(block, content, language)));
+      });
     return components;
   };
 
-  return <Wrapper class="tui-page">{renderComponents()}</Wrapper>;
+  return <Wrapper className="tui-page">{renderComponents()}</Wrapper>;
 };
 
 export default WFPArticleGrid;
+
+
+
+
+
 
 
 

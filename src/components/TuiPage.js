@@ -1,49 +1,66 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import styled from "styled-components";
 import Components from "../components";
+import {useDispatch, useSelector} from "react-redux";
+import {setLanguage, setPage} from "../store/index";
+import translatedRows from "../filters/translatedRows";
+import translatedBlock from "../filters/translatedBlock";
+import axios from 'axios'
 
 const Wrapper = styled.div ``;
 
 const TuiPage = props => {
-  const [language, setLanguage] = useState(props.language ?? 'en_GB') 
-  const [layout] = useState(props.data.pageData.content.layout);
-  const [blocks] = useState(props.data.pageData.content.blocks);
+  const dispatch = useDispatch();
+  const language = useSelector(state => state.index.language);
+  const content = useSelector(
+    state => state.index
+    ?.page
+      ?.pageData
+        ?.content);
 
-  console.log('layout', layout); 
-  console.log('blocks', blocks); 
+  // Only gets executed if there's a URL instead of a data tag
+  const getUrl = () => {
+    axios.get(props.url, {
+      headers: {
+        'Authorization': `Bearer token`
+      }
+    })
+    .then(function (response) {
+      dispatch(setPage(response.data));
+    })
+    .catch(function (error) {
+      console.log(error);
+    })
+  }
 
-  const translatedBlock = id => {
-    const content = props.data.pageData.content;
-    const row = {
-      ...blocks[id]
-    };
-    if (content.langData[props.data.pageData.defaultLanguage].hasOwnProperty(row.id)) {
-      Object.assign(row, content.langData[props.data.pageData.defaultLanguage][row.id]);
+  useEffect(() => {
+    // Gets either the data or the URL tags
+    if (!props.url) {
+      dispatch(setPage(props.data));
+    } else {
+      getUrl();
     }
+    dispatch(setLanguage(props.language));
+  }, [props.data]);
 
-    // Falls back to en_GB
-    if (content.langData[language]) {
-        Object.assign(row, content.langData[language][row.id]);
-    }
-    return row;
-  };
+  // Gets all translated rows data
+  const getTranslatedRows = useSelector(state => {
+    return translatedRows(
+      content,
+    language);
+  });
 
+  // Renders all components
   const renderComponents = () => {
     const components = [];
-    for (const block in blocks) {
-        if(props.data.pageData.content.blocks.hasOwnProperty('l8wveVDB6cf9')){
-            console.log("yes, i have that property");
-        } else {
-            console.log("yes, i have that property");
-        }
-        console.log('block', block, blocks[block])
-        console.log('translatedBlock', translatedBlock(block));
-        components.push(Components(blocks[block], translatedBlock(block)));
-    }
+    getTranslatedRows.forEach(block => {
+        components.push(Components(block, translatedBlock(block.id, content, language)));
+      });
     return components;
   };
 
-  return <Wrapper class="tui-page">{renderComponents()}</Wrapper>;
+  return <Wrapper className={props.class}>{renderComponents()}</Wrapper>;
 };
 
 export default TuiPage;
+

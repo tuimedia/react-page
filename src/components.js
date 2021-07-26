@@ -1,23 +1,32 @@
 import React from "react";
-import PageText from "./components/global/PageText";
-import WFPArticleGrid from "./components/global/WFPArticleGrid";
+import styled from "styled-components";
+import loadGlobalComponents from "./load-global-components";
 
-const Components = {
-  PageText,
-  WFPArticleGrid
-};
+const UnavailableComponent = styled.div `
+  padding: 30px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(240, 239, 239);
+`;
+
+const LoadComponents = loadGlobalComponents();
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default (block, data) => {
-  if (typeof Components[block.component] !== "undefined") {
-    return React.createElement(Components[block.component], {
-      key: block._uid,
-      block: block,
-      data
-    });
+export default block => {
+  if (typeof LoadComponents[block.component] !== "undefined") {
+    return (<div id={`${block.id}`} key={block.id} className={`tui-page__block tui-page__block--${block.component}`}>
+      {
+        React.createElement(LoadComponents[block.component], {
+          key: block._uid,
+          block
+        })
+      }
+    </div>);
   }
-  return React.createElement(
-    (el) => <div>The component {block.component} has not been created yet.</div>,
-    { key: block._uid }
-  );
+  return React.createElement(el => (<UnavailableComponent key={block.id}>
+    The component
+    <strong> {block.component} </strong>
+    has not been created yet.
+    <span> (ID: {block.id})</span>
+  </UnavailableComponent>), {key: block._uid});
 };
