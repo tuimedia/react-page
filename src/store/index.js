@@ -29,7 +29,7 @@ const slice = createSlice({
         },
         setLanguage: (state, action) => {
             state.language = action.payload;
-        },
+        }
     },
 });
 export const { setPage, translatedBlock, setLanguage, loadGlobalComponents } = slice.actions

@@ -19,10 +19,7 @@ function App() {
       }}>
       Change to EN_GB
     </button>
-    <TuiPage 
-      class="tui-page-class"
-      data={sample} 
-      language={language}/>
+    <TuiPage class="tui-page-class" data={sample} language={language}/>
   </div>);
 }
 
