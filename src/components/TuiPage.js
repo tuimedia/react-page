@@ -2,16 +2,26 @@ import React, {useState, useEffect} from "react";
 import styled from "styled-components";
 import Components from "../components";
 import {useDispatch, useSelector} from "react-redux";
-import {setLanguage, setPage} from "../store/index";
+import {setLanguage, setPage, setPageState} from "../store/index";
 import translatedRows from "../filters/translatedRows";
 import translatedBlock from "../filters/translatedBlock";
 import axios from 'axios'
 
 const Wrapper = styled.div ``;
+const Loading = styled.div `
+  display: ${props => props.show == 'loading' ? 'block' : 'none'};
+`;
+
+const Error = styled.div `
+  display: ${props => props.show == 'error' ? 'block' : 'none'};
+`;
 
 const TuiPage = props => {
   const dispatch = useDispatch();
   const language = useSelector(state => state.index.language);
+  const pageState = useSelector(state => state.index.pageState);
+  const [error, setError] = useState(null);
+
   const content = useSelector(
     state => state.index
     ?.page
@@ -27,9 +37,12 @@ const TuiPage = props => {
     })
     .then(function (response) {
       dispatch(setPage(response.data));
+      dispatch(setPageState('loaded'));
     })
     .catch(function (error) {
       console.log(error);
+      dispatch(setPageState('error'));
+      setError(error);
     })
   }
 
@@ -37,8 +50,10 @@ const TuiPage = props => {
     // Gets either the data or the URL tags
     if (!props.url) {
       dispatch(setPage(props.data));
+      dispatch(setPageState('loaded'));
     } else {
       getUrl();
+      dispatch(setPageState('loading'));
     }
     dispatch(setLanguage(props.language));
   }, [props.data]);
@@ -59,7 +74,13 @@ const TuiPage = props => {
     return components;
   };
 
-  return <Wrapper className={props.class}>{renderComponents()}</Wrapper>;
+  return (
+    <Wrapper className={props.class}>
+      <Error show={pageState}>{props.error}</Error>
+      <Loading show={pageState}>{props.loading}</Loading>
+      {renderComponents()}
+    </Wrapper>
+  );
 };
 
 export default TuiPage;

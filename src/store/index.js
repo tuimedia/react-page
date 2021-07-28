@@ -29,9 +29,12 @@ const slice = createSlice({
         },
         setLanguage: (state, action) => {
             state.language = action.payload;
+        },
+        setPageState: (state, action) => {
+            state.pageState = action.payload;
         }
     },
 });
-export const { setPage, translatedBlock, setLanguage, loadGlobalComponents } = slice.actions
+export const { setPage, setPageState, translatedBlock, setLanguage, loadGlobalComponents } = slice.actions
 
 export default slice.reducer
